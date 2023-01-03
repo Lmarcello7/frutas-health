@@ -1,0 +1,23 @@
+.card-largura{
+  width: 18rem;
+}
+
+.imagem-carrosel{
+        height: 400px;
+        object-fit: cover;
+        object-position: 0 80%;
+    }
+   .fonte-titulo{
+        font-family: 'Pacifico', cursive;
+   }
+  .cor-especial{
+    color: darkred;
+  }
+  .btn-primary {
+    background-color: darkred;
+  }
+
+ .imagem-Card{
+      height: 200px;
+      object-fit: cover;
+ }
