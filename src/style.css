@@ -1,6 +1,15 @@
+:root{
+  --main-bg-color: background-color: darkred !important;
+}
+
+*{
+  box-shadow: 0 0 0 0 !important; /*REMOVE A BORDA AZUL DOS INPUTS*/
+}
+
 .card-largura{
   width: 18rem;
 }
+
 
 .imagem-carrosel{
   height: 400px;
@@ -27,7 +36,13 @@
   object-fit: cover;
 }
 /*SESSÃO DE CONTATO*/
+#inputEmail{
+  border: 0;
+  border-bottom: 1px solid darkred;
+  border-radius: 0;
+}
 
-
-
+#btnSubmit{
+  background-color: var(--main-bg-color);
+}
 /*SESSÃO DE CONTATO*/
